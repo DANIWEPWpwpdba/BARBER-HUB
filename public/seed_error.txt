@@ -1,0 +1,2 @@
+Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`barber_hub`.`usuarios`, CONSTRAINT `usuarios_ibfk_2` FOREIGN KEY (`barberia_id`) REFERENCES `barberias` (`id`) ON DELETE CASCADE)
+Variables: u_id=2471, b_id=10
